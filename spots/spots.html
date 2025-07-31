@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detalhes do Local</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-blue-gray-100 text-gray-800 antialiased">
+
+  <!-- Cabeçalho -->
+  <header class="bg-gradient-to-r from-teal-900 to-emerald-800 text-white p-6 shadow-2xl sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="/index.html" class="text-2xl font-extrabold text-amber-300 drop-shadow-xl tracking-wide hover:underline">← Voltar</a>
+      <h1 class="text-xl md:text-2xl font-semibold tracking-wide">Belezas de Quixadá</h1>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container mx-auto px-6 py-16 max-w-6xl">
+    <div class="bg-white rounded-3xl shadow-2xl p-10 border border-blue-gray-200" id="spot-container">
+      <!-- O conteúdo será inserido dinamicamente -->
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-900 text-white p-8 mt-16 shadow-inner">
+    <div class="container mx-auto text-center">
+      <p class="mb-4 text-lg">&copy; 2025 Belezas de Quixadá. Todos os direitos reservados.</p>
+      <div class="flex justify-center space-x-10 text-lg">
+        <a href="#" class="hover:text-amber-300 transition duration-300 transform hover:scale-110">Facebook</a>
+        <a href="#" class="hover:text-amber-300 transition duration-300 transform hover:scale-110">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/script/dados.js"></script>
+  <script src="/script/spot.js"></script>
+</body>
+</html>
