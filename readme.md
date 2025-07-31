@@ -18,4 +18,4 @@ Este site pode ser usado em projetos acadêmicos, portfólios ou como base para 
 
 ---
 
-Feito com 💻 por Rodrigo Silva
+Feito com 💻 por Rodrigo Cauã e Carlos Eduardo
