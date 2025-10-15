@@ -1,3 +1,6 @@
+<img width="1066" height="944" alt="image" src="https://github.com/user-attachments/assets/b30145e1-4505-46d0-ba53-937dc63b11ec" />
+<img width="1561" height="832" alt="image" src="https://github.com/user-attachments/assets/185e5c1b-96c0-4f77-bf4e-9d4837a83992" />
+
 
 ## 🛠 Tecnologias utilizadas
 
