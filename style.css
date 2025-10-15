@@ -1,0 +1,31 @@
+/* Importa a fonte Inter. Se você já tem a tag <link> no HTML, pode remover este @import */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap");
+
+/* Define a fonte Inter para todo o corpo do documento, garantindo que o CSS personalizado a utilize */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Estilos para o carrossel de imagens */
+.carousel-item {
+  display: none; /* Esconde todos os itens do carrossel por padrão */
+  opacity: 0; /* Começa invisível para transição */
+  transition: opacity 1.2s ease-in-out; /* Transição mais suave de opacidade */
+}
+
+.carousel-item.active {
+  display: block; /* Mostra apenas o item ativo */
+  opacity: 1; /* Torna visível */
+}
+
+/* Esconde todas as seções de conteúdo por padrão, exceto a ativa (para o efeito de navegação) */
+.content-section {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.content-section.active {
+  display: block;
+  opacity: 1;
+}
